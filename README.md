@@ -273,9 +273,9 @@ int main(void)
   Lcd_HandleTypeDef lcd;
   lcd = Lcd_create(ports, pins, GPIOB, GPIO_PIN_0, GPIOB, GPIO_PIN_1, LCD_4_BIT_MODE);
   Lcd_cursor(&lcd, 0,1);
-  Lcd_string(&lcd, "JONES BENEDICT A P");
+  Lcd_string(&lcd, "OBELESH");
   Lcd_cursor(&lcd, 1,1);
-  Lcd_string(&lcd, "212224040142");
+  Lcd_string(&lcd, "212224040228");
 
 
 
@@ -417,7 +417,8 @@ void assert_failed(uint8_t *file, uint32_t line)
 
 
 ## Output screen shots of proteus  :
-<img width="1368" height="967" alt="image" src="https://github.com/user-attachments/assets/3f4eeb64-2d4d-474b-88e4-a23d2721f780" />
+<img width="1496" height="1051" alt="ChatGPT Image Sep 3, 2026, 01_16_14 AM" src="https://github.com/user-attachments/assets/cb33afa3-4d91-4cbd-97ae-0cda19a9ebde" />
+
 
  
  
